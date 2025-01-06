@@ -1,0 +1,20 @@
+{
+  "name": "my_first_contract",
+  "version": "1.0.0",
+  "description": "ton contract",
+  "main": "index.js",
+  "author": "wang fei",
+  "license": "MIT",
+  "scripts": {
+    "compile": "node_modules/.bin/ts-node ./scripts/compile.ts"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.7.24",
+    "@ton-community/func-js": "^0.7.0",
+    "@ton/core": "^0.57.0",
+    "@types/node": "^22.5.4",
+    "ton-crypto": "^3.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
